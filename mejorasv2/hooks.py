@@ -36,6 +36,8 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+doctype_js = {"Sales Invoice" : "public/js/sales_invoice_frm.js"}
+
 # Home Pages
 # ----------
 
@@ -84,6 +86,10 @@ app_license = "MIT"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
+
+override_doctype_class = {
+	"Sales Invoice": "qp_utilities.overrides.CustomSalesInvoice"
+}
 
 # Document Events
 # ---------------
