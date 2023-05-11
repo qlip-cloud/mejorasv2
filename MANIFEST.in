@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mejorasv2 *.css
+recursive-include mejorasv2 *.csv
+recursive-include mejorasv2 *.html
+recursive-include mejorasv2 *.ico
+recursive-include mejorasv2 *.js
+recursive-include mejorasv2 *.json
+recursive-include mejorasv2 *.md
+recursive-include mejorasv2 *.png
+recursive-include mejorasv2 *.py
+recursive-include mejorasv2 *.svg
+recursive-include mejorasv2 *.txt
+recursive-exclude mejorasv2 *.pyc
