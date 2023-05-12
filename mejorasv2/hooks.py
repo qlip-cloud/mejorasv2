@@ -88,7 +88,7 @@ doctype_js = {"Sales Invoice" : "public/js/sales_invoice_frm.js"}
 # }
 
 override_doctype_class = {
-	"Sales Invoice": "qp_utilities.overrides.CustomSalesInvoice"
+	"Sales Invoice": "mejorasv2.overrides.CustomSalesInvoice"
 }
 
 # Document Events
